@@ -8,7 +8,7 @@
 This service offers secure **user registration**, **login**, **JWT-based authentication**, **role-based access control (RBAC)**, **token refresh**, and **logout** functionality using **Go** and **PostgreSQL**, with Redis for email verification and token blacklisting.
 
 ---
-
+# Base Url - https://localhost:8081
 ## ⚙️ Tech Stack
 
 * **Go (Fiber)** – Fast and minimalist web framework
