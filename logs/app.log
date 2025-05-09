@@ -1155,3 +1155,161 @@
   "time": "2025-05-09 12:29:02",
   "user_id": "a951f876-0fac-47fd-9428-ac3d2a02b793"
 }
+{
+  "level": "info",
+  "message": "application started",
+  "time": "2025-05-09 12:48:47"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "Attempting user login",
+  "time": "2025-05-09 12:48:55"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "attempting user registration",
+  "time": "2025-05-09 12:49:09"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "user created successfully",
+  "time": "2025-05-09 12:49:10",
+  "user_id": "3dac6eda-e7cf-407e-8281-06cf4c64b552"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "Verification email sent successfully",
+  "time": "2025-05-09 12:49:10"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "attempting email verification",
+  "time": "2025-05-09 12:49:32"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "email verified successfully",
+  "time": "2025-05-09 12:49:32"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "Attempting user login",
+  "time": "2025-05-09 12:49:35"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "User logged in successfully",
+  "time": "2025-05-09 12:49:35",
+  "user_id": "3dac6eda-e7cf-407e-8281-06cf4c64b552"
+}
+{
+  "level": "info",
+  "message": "user logged out successfully",
+  "time": "2025-05-09 12:50:34",
+  "user_id": "3dac6eda-e7cf-407e-8281-06cf4c64b552"
+}
+{
+  "level": "info",
+  "message": "application started",
+  "time": "2025-05-09 13:24:59"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "Attempting user login",
+  "time": "2025-05-09 13:25:05"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "User logged in successfully",
+  "time": "2025-05-09 13:25:05",
+  "user_id": "3dac6eda-e7cf-407e-8281-06cf4c64b552"
+}
+{
+  "level": "info",
+  "message": "token refreshed successfully",
+  "time": "2025-05-09 13:29:42",
+  "user_id": "3dac6eda-e7cf-407e-8281-06cf4c64b552"
+}
+{
+  "level": "info",
+  "message": "application started",
+  "time": "2025-05-09 13:33:41"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "attempting user registration",
+  "time": "2025-05-09 13:33:47"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "user created successfully",
+  "time": "2025-05-09 13:33:48",
+  "user_id": "ecaea4fd-f6eb-40e6-b33d-2f8f7533630d"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "Verification email sent successfully",
+  "time": "2025-05-09 13:33:49"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "Attempting user login",
+  "time": "2025-05-09 13:34:05"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "User logged in successfully",
+  "time": "2025-05-09 13:34:05",
+  "user_id": "ecaea4fd-f6eb-40e6-b33d-2f8f7533630d"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "attempting email verification",
+  "time": "2025-05-09 13:34:32"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "email verified successfully",
+  "time": "2025-05-09 13:34:32"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "Attempting user login",
+  "time": "2025-05-09 13:37:07"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "User logged in successfully",
+  "time": "2025-05-09 13:37:07",
+  "user_id": "ecaea4fd-f6eb-40e6-b33d-2f8f7533630d"
+}
+{
+  "level": "info",
+  "message": "user logged out successfully",
+  "time": "2025-05-09 13:37:29",
+  "user_id": "ecaea4fd-f6eb-40e6-b33d-2f8f7533630d"
+}
+{
+  "level": "info",
+  "message": "application started",
+  "time": "2025-05-09 13:39:14"
+}

@@ -137,7 +137,14 @@ func (u UserHandler) Refresh(c *fiber.Ctx) error {
 	newRefreshToken, err := jwt_provider.JwtTokenGenerator(1, userID, userRole)
 
 	u.log.WithField("user_id", userID).Info("token refreshed successfully")
-
+	c.Cookie(&fiber.Cookie{
+		Name:     "refresh_token",
+		Value:    newRefreshToken,
+		HTTPOnly: true,
+		Secure:   true,
+		SameSite: "Strict",
+		Expires:  time.Now().Add(7 * 24 * time.Hour),
+	})
 	return utils.SuccessResponse(c, fiber.StatusOK, "Token refreshed", fiber.Map{
 		"access_token":  newAccessToken,
 		"refresh_token": newRefreshToken,
