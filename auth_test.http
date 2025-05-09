@@ -1,0 +1,53 @@
+### Register a new user
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+
+{
+  "first_name": "Swan Htet",
+  "last_name": "Aung Phyo",
+  "email": "swanhtetaungp@gmail.com",
+  "password": "securePassword123",
+  "role_name": "user",
+  "age": 25
+}
+### Verify email
+POST {{baseUrl}}/auth/verify
+Content-Type: application/json
+
+{
+  "code": "114075",
+  "email": "swanhtetaungp@gmail.com"
+}
+### Login with credentials
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "swanhtetaungp@gmail.com",
+  "password": "securePassword123"
+}
+
+###
+GET {{baseUrl}}/refresh
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY3ODgzMjYsImlhdCI6MTc0Njc4NjUyNiwicm9sZSI6InVzZXIiLCJzdWIiOiJhOTUxZjg3Ni0wZmFjLTQ3ZmQtOTQyOC1hYzNkMmEwMmI3OTMiLCJ0eXBlIjowfQ.mox13ja5w-G9_N3UYMS74y_FdtlVuiAMKkAnUqFQwU0
+
+### Logout
+POST {{baseUrl}}/logout
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY3ODgyMDMsImlhdCI6MTc0Njc4NjQwMywicm9sZSI6InVzZXIiLCJzdWIiOiJhOTUxZjg3Ni0wZmFjLTQ3ZmQtOTQyOC1hYzNkMmEwMmI3OTMiLCJ0eXBlIjowfQ.im9v5FhrT20kqc4lMPc0-b5acEh2uzV5BZ7H4-q4oIw
+
+
+### Try to get user private data with admin token
+GET {{baseUrl}}/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY3ODgyMDMsImlhdCI6MTc0Njc4NjQwMywicm9sZSI6InVzZXIiLCJzdWIiOiJhOTUxZjg3Ni0wZmFjLTQ3ZmQtOTQyOC1hYzNkMmEwMmI3OTMiLCJ0eXBlIjowfQ.im9v5FhrT20kqc4lMPc0-b5acEh2uzV5BZ7H4-q4oIw
+
+
+### Try to get admin private data with user token
+GET {{baseUrl}}/admin
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY3ODgyMDMsImlhdCI6MTc0Njc4NjQwMywicm9sZSI6InVzZXIiLCJzdWIiOiJhOTUxZjg3Ni0wZmFjLTQ3ZmQtOTQyOC1hYzNkMmEwMmI3OTMiLCJ0eXBlIjowfQ.im9v5FhrT20kqc4lMPc0-b5acEh2uzV5BZ7H4-q4oIw
+
+
+
+
