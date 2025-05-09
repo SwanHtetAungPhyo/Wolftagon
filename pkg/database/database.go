@@ -26,7 +26,6 @@ func DBConnect(log *logrus.Logger) (*gorm.DB, error) {
 			})
 
 			if err == nil {
-				// Successfully connected, apply connection pool settings
 				rawDB, err := db.DB()
 				if err != nil {
 					log.Error("Failed to get the raw db connection", err)

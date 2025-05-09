@@ -1313,3 +1313,40 @@
   "message": "application started",
   "time": "2025-05-09 13:39:14"
 }
+{
+  "level": "info",
+  "message": "application started",
+  "time": "2025-05-09 15:22:35"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "attempting user registration",
+  "time": "2025-05-09 15:22:55"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "user created successfully",
+  "time": "2025-05-09 15:22:55",
+  "user_id": "da93be9d-abf0-48b1-bd1a-b77f4d69b955"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "Verification email sent successfully",
+  "time": "2025-05-09 15:22:56"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "Attempting user login",
+  "time": "2025-05-09 15:22:59"
+}
+{
+  "email": "swanhtetaungp@gmail.com",
+  "level": "info",
+  "message": "User logged in successfully",
+  "time": "2025-05-09 15:22:59",
+  "user_id": "da93be9d-abf0-48b1-bd1a-b77f4d69b955"
+}
